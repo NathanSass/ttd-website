@@ -1,0 +1,81 @@
+body {
+	background: #4A4A4A;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+}
+
+
+h2 {
+
+}
+
+
+ul.nav {
+	margin: 120px 0 0 0;
+	list-style: none;
+	float: left;
+
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 70px;
+
+}
+
+ul.nav li a {
+	color: #D4D4D4;
+}
+
+
+#logo img{
+	width: 150px;
+	height:173px;
+	margin: 40px 0 0 0;
+}
+
+#featured_image img{
+	width: 660px;
+	height: 437px;
+}
+
+#team img{
+	width: 120px;
+	height: 120px;
+}
+
+ul.tile_images {
+	list-style: none;
+}
+
+ul.tile_images li {
+	float:left;
+}
+
+#copyright {
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
