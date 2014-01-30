@@ -1,4 +1,4 @@
-<!DOCTYPE HTML> <!-- TTD SITE -->
+<!DOCTYPE HTML> <!-- TTD SITE Version 2-->
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -7,19 +7,21 @@
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
 </head>
+<body>
 	<div class="container clearfix">
 		<div id = "logo" class="grid_4">
 			<img src="img/ttd_logo.png" alt="Team Thunderdome Logo">
 		</div>
-		<div class="grid_8 omega">
-			<ul class="nav">
-				<li><a href="#">ABOUT</a></li>
+		<div id="nav" class="grid_8 omega">
+			<ul>
+				<li class="about"><a href="#">ABOUT</a></li>
 				<li><a href="#">HUCKED</a></li>
 				<li><a href="#">CONTACT</a></li>
 			</ul>
 		</div>
-		<div class="grid_8">
+		<div class="grid_8 video-container">
 			<h1> Steve Fisher - TED talk</h1>
 			<iframe width="660" height="480" src="http://www.youtube.com/embed/dcdXzQq84PU" frameborder="0" allowfullscreen></iframe>
 			<p> TDD friend Steve Fisher talk in athens about how to prepare for the unknown</p>
@@ -48,6 +50,16 @@
 			<p> &copy; 2014 Team ThunderDome.</p>
 		</div>
 	</div>
-<body>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<script src="external/matchmedia.js"></script>
+	<script src="picturefill.js"></script>
+
+  	<script src="jquery.fittext.js"></script>
+	<script type="text/javascript">
+		$("#fittext1").fitText(2.2);
+	</script>
+
 </body>
 </html>
