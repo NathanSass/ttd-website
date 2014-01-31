@@ -1,12 +1,17 @@
 body {
-	background: #4A4A4A;
+	background: #E0E4FF;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
+	color: #53528B;
 
 }
 
 a {
 	text-decoration: none;
+}
+
+p {
+	color: #2E1427;
 }
 
 h1 {
@@ -16,19 +21,26 @@ h1 {
 h2 {
 }
 
+#logo {
+
+}
+
 #logo img{
-	max-width: 50%;
-	padding: 15% 0 15% 0;
+	margin-left: 32%;
+	max-width: 15%;
+	padding: 5% 0 0 0;
 }
 
 #nav{
-	margin-top: 2%;
+	margin: 2% 0 5% 0;
+	padding-left: 3%;
 }
 
 #nav ul {
 	width:100%;
-	margin: 15% 0 0 0;
+	margin: 0;
 	list-style: none;
+	padding-left: 15%;
 }
 
 #nav ul li {
@@ -37,20 +49,24 @@ h2 {
 }
 
 #nav ul li.about {
-	padding-left: 15%;
+	
 }
 
 #nav ul li a {
 	display: block;
 	text-decoration: none;
-	color: #D4D4D4;
+	color: #53528B;
 	padding-right: 25%;
+}
+
+#nav ul li a:hover {
+	font-weight: 300;
 }
 
 /*youtube embed*/
 .video-container {
     position: relative;
-    padding-bottom: 40%;
+    padding-bottom: 60%;
     padding-top: 30px; height: 0; overflow: hidden;
     margin-bottom: 5%;
 }
@@ -69,7 +85,10 @@ h2 {
 #news h1{
 	margin: 0;
 }
+#featured_image {
+	float: left;
 
+}
 #featured_image img{
 	max-width: 100%
 }
@@ -81,15 +100,17 @@ h2 {
 
 #team img{
 	max-width: 100%;
-	padding: 0 1em 1em 0;
+	padding: 0 0 0 0;
 }
 
 ul.tile_images {
 	list-style: none;
+	padding: 0;
 }
 
 ul.tile_images li {
 	float:left;
+	padding: 0 .5em .5em 0;
 }
 
 #copyright {
@@ -97,11 +118,64 @@ ul.tile_images li {
 	text-align: center;
 }
 
+
 /* media queries */
 /*smaller resolution*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 890px) {
+	
+	#nav{
+		padding-left: 0;
+	}
+	#nav ul{
+		padding-left: 10%;
+	}
+	#nav ul li {
+		font-size: 1.75em;
+	}
+
+	#logo img{
+		margin-left: 37%;
+	}
+
+	#left {
+		width: 100%;
+	}
+
+	#right {
+		width: 100%;
+	}
 }
 
+@media screen and (max-width: 480px) {
+
+	h1 {
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+	
+	#nav{
+		padding-left: 0;
+	}
+
+	#nav ul li {
+		font-size: 1em;
+	}
+
+	#logo img{
+		margin-left: 37%;
+	}
+
+	#left {
+		width: 100%;
+	}
+
+	#right {
+		width: 100%;
+	}
+}
 
 
 
